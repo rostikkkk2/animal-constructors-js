@@ -10,6 +10,6 @@ function animal(sound_animal, number_of_paws, is_wild) {
   }
 }
 
-var animal = new animal("gav", 4, true);
+var dog_animal = new animal("gav", 4, true);
 
-animal.saySound();
+dog_animal.saySound();
